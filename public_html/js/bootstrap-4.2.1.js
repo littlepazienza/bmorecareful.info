@@ -3,6 +3,13 @@
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
+
+function myFunction() {
+   document.getElementById('showImg').style.height="400px";
+    document.getElementById('showImg').style.width="300px";
+document.getElementById('showImg').style.visibility="visible";
+}
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('popper.js'), require('jquery')) :
   typeof define === 'function' && define.amd ? define(['exports', 'popper.js', 'jquery'], factory) :
@@ -4246,4 +4253,5 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
+
 //# sourceMappingURL=bootstrap.js.map
