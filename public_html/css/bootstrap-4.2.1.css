@@ -655,7 +655,6 @@ pre code {
 }
 
 .img5{
-    align-content: center;
     width: 30%;
     padding-right: 0px;
     padding-left: 0px;
@@ -670,10 +669,9 @@ pre code {
     -webkit-box-shadow: 0px 0px 79px;
     box-shadow: 0px 0px 79px;
     margin-bottom: 23px;
-    height: 23%;
-    width: 19%;
     display: none;
 }
+
 .container-fluid-picture{
 	width: 60%;
 	padding-right: 0px;
