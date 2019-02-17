@@ -653,6 +653,27 @@ pre code {
 	box-shadow: 0px 0px 79px;
 	margin-bottom: 23px;
 }
+
+.img5{
+    align-content: center;
+    width: 30%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 19px;
+    color: #000000;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 3px 0px 11px #C31C1F;
+    background-color: #12136E;
+    -webkit-box-shadow: 0px 0px 79px;
+    box-shadow: 0px 0px 79px;
+    margin-bottom: 23px;
+    height: 23%;
+    width: 19%;
+    display: none;
+}
 .container-fluid-picture{
 	width: 60%;
 	padding-right: 0px;
