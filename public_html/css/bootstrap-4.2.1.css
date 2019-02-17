@@ -590,12 +590,12 @@ pre code {
 }
 
 .img2{
-	width: 59%;
+	width: 64%;
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-right: 0px;
 	margin-left: 44px;
-	margin-top: 0px;
+	margin-top: 30px;
 	color: #000000;
 	font-weight: bold;
 	font-size: x-large;
@@ -645,11 +645,33 @@ pre code {
 	margin-right: -38px;
 	margin-left: 20px;
 	margin-top: 85px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: x-large;
+	text-shadow: 3px 0px 11px #FFFFFF;
+
+
+
+
+
+	//background-color: #12136E;
+	-webkit-box-shadow: 0px 0px 79px;
+	box-shadow: 0px 0px 79px;
+	margin-bottom: 28px;
+	background-color: hsla(237,50%,43%,0.56);
+}
+
+.container-fluid-lads {
+	width: 97%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: -38px;
+	margin-left: 20px;
+	margin-top: 85px;
 	color: #000000;
 	font-weight: bold;
 	font-size: x-large;
 	text-shadow: 3px 0px 11px #C31C1F;
-	background-color: #12136E;
 	-webkit-box-shadow: 0px 0px 79px;
 	box-shadow: 0px 0px 79px;
 	margin-bottom: 28px;
@@ -1496,8 +1518,11 @@ pre code {
 	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
 	max-width: 100%;
-	color: #FFFFFF;
+	color: #F0F0F0;
 	font-weight: normal;
+	text-shadow: 2px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px #000000;
+	box-shadow: 0px 0px #000000;
   }
   .order-xl-first {
     -ms-flex-order: -1;
