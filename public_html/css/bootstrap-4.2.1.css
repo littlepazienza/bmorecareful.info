@@ -175,7 +175,9 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 }
 
 a:not([href]):not([tabindex]):focus {
-  outline: 0;
+	outline: 0;
+	margin-left: 0px;
+	left: 0px;
 }
 
 pre,
@@ -570,11 +572,19 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 85px;
+	color: #000000;
+	font-weight: bold;
+	font-size: x-large;
+	text-shadow: 3px 0px 11px #C31C1F;
+	background-color: #DD9FA0;
+	-webkit-box-shadow: 0px 0px 79px;
+	box-shadow: 0px 0px 79px;
 }
 
 .row {
@@ -1370,6 +1380,16 @@ pre code {
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
+	
+	.col-xl-5-header{
+	-ms-flex: 0 0 41.666667%;
+	flex: 0 0 41.666667%;
+	max-width: 41.666667%;
+	color: #FFFFFF;
+	margin-left: -6px;
+	text-shadow: -4px 0px 4px #372C2D;
+	}
+	
   .col-xl-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -7650,11 +7670,12 @@ button.bg-dark:focus {
 }
 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	font-size: large;
 }
 
 .fixed-bottom {
